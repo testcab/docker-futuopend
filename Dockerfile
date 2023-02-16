@@ -1,6 +1,6 @@
 FROM ubuntu:22.04
 
-ARG VERSION=6.6.3108
+ARG VERSION=7.0.3218
 
 WORKDIR /opt/FutuOpenD
 
