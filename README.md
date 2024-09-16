@@ -7,7 +7,8 @@ An unofficial docker image packaging [FutuOpenD](https://www.futunn.com/download
 
 ## Supported tags and respective `Dockerfile` links
 
-* [`7.5.3708`, `7.5`, `7`, `latest`](https://github.com/testcab/docker-futuopend/blob/main/Dockerfile)
+* [`8.2.4218`, `8.2`, `8`, `latest`](https://github.com/testcab/docker-futuopend/blob/main/Dockerfile)
+* [`7.5.3708`, `7.5`, `7`](https://github.com/testcab/docker-futuopend/blob/7.5/Dockerfile)
 * [`7.0.3218`, `7.0`](https://github.com/testcab/docker-futuopend/blob/7.0/Dockerfile)
 * [`6.6.3108`, `6.6`, `6`](https://github.com/testcab/docker-futuopend/blob/6/Dockerfile)
 
