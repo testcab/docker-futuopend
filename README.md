@@ -12,9 +12,9 @@ An unofficial docker image packaging [FutuOpenD](https://www.futunn.com/download
 * [`8.4.4418`, `8.4`](https://github.com/testcab/docker-futuopend/blob/8.4/Dockerfile)
 * [`8.4.4408`](https://github.com/testcab/docker-futuopend/blob/8.4.4408/Dockerfile)
 * [`8.2.4218`, `8.2`](https://github.com/testcab/docker-futuopend/blob/8.2/Dockerfile)
-* [`7.5.3708`, `7.5`, `7`](https://github.com/testcab/docker-futuopend/blob/7.5/Dockerfile)
-* [`7.0.3218`, `7.0`](https://github.com/testcab/docker-futuopend/blob/7.0/Dockerfile)
-* [`6.6.3108`, `6.6`, `6`](https://github.com/testcab/docker-futuopend/blob/6/Dockerfile)
+* [`7.05.3708`, `7.5.3708`, `7.05`, `7.5`, `7`](https://github.com/testcab/docker-futuopend/blob/7.05/Dockerfile)
+* [`7.00.3218`, `7.0.3218`, `7.00`, `7.0`](https://github.com/testcab/docker-futuopend/blob/7.00/Dockerfile)
+* [`6.06.3108`, `6.6.3108`, `6.06`, `6.6`, `6`](https://github.com/testcab/docker-futuopend/blob/6/Dockerfile)
 
 
 ## Usage
