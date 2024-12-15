@@ -1,6 +1,6 @@
 FROM ubuntu:24.04 AS download
 
-ARG VERSION=8.6.4608
+ARG VERSION=8.7.4708
 
 RUN apt-get update \
  && apt-get install -y wget \
