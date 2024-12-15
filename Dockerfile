@@ -1,6 +1,6 @@
 FROM ubuntu:24.04
 
-ARG VERSION=8.5.4518
+ARG VERSION=8.5.4528
 
 WORKDIR /opt/FutuOpenD
 
