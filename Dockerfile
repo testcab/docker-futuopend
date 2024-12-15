@@ -1,13 +1,12 @@
 FROM ubuntu:24.04 AS download
 
-ARG VERSION=8.7.4708
-
 RUN apt-get update \
  && apt-get install -y wget \
  && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /opt/FutuOpenD
 
+ARG VERSION=8.8.4808
 RUN wget https://softwaredownload.futunn.com/Futu_OpenD_${VERSION}_Ubuntu16.04.tar.gz -O FutuOpenD.tar.gz \
  && tar --strip-components 2 --exclude '*.AppImage' -xvf FutuOpenD.tar.gz \
  && rm FutuOpenD.tar.gz
