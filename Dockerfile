@@ -1,4 +1,4 @@
-FROM ubuntu:24.04 AS download
+FROM ubuntu:26.04 AS download
 
 RUN apt-get update \
  && apt-get install -y wget \
@@ -12,7 +12,7 @@ RUN wget https://softwaredownload.futunn.com/Futu_OpenD_${VERSION}_Ubuntu18.04.t
  && rm FutuOpenD.tar.gz
 
 
-FROM ubuntu:24.04 AS futuopend
+FROM ubuntu:26.04 AS futuopend
 
 WORKDIR /opt/FutuOpenD
 COPY --from=download /opt/FutuOpenD /opt/FutuOpenD
