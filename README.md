@@ -7,6 +7,7 @@ An unofficial docker image packaging [FutuOpenD](https://www.futunn.com/download
 
 ## Supported tags and respective `Dockerfile` links
 
+* [`10.3.6308`, `10.3`](https://github.com/testcab/docker-futuopend/blob/10.3.6308/Dockerfile)
 * [`10.2.6208`, `10.2`](https://github.com/testcab/docker-futuopend/blob/10.2.6208/Dockerfile)
 * [`10.1.6108`, `10.1`](https://github.com/testcab/docker-futuopend/blob/10.1.6108/Dockerfile)
 * [`10.0.6018`, `10.0`](https://github.com/testcab/docker-futuopend/blob/10.0.6018/Dockerfile)

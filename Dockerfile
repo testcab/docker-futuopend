@@ -6,7 +6,7 @@ RUN apt-get update \
 
 WORKDIR /opt/FutuOpenD
 
-ARG VERSION=10.2.6208
+ARG VERSION=10.3.6308
 RUN wget https://softwaredownload.futunn.com/Futu_OpenD_${VERSION}_Ubuntu18.04.tar.gz -O FutuOpenD.tar.gz \
  && tar --strip-components 2 --exclude '*.AppImage' -xvf FutuOpenD.tar.gz \
  && rm FutuOpenD.tar.gz
